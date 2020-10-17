@@ -16,7 +16,7 @@ color: #69CBBB;
 text-decoration: none;
 }
 
-/* Centers images */
+
 
 img {
 display: block;
@@ -28,7 +28,7 @@ creating a new class. We can apply this to div elements to create different
 portfolio entries */
 
 .portfolio-item {
-/* margin-top: 60px; */
-/* padding: 40px; */
+margin-top: 60px;
+padding: 40px; 
 background-color: #f7f7f7;
 }
