@@ -41,7 +41,7 @@ background-color: #f7f7f7;
 }
 
 .item {
-  flex: 0 32%;
+  flex: 0 0 32%;
   height: 100px;
   margin-bottom: 2%; /* (100-32*3)/2 */
 }
