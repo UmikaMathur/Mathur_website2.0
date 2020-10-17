@@ -32,3 +32,16 @@ margin-top: 60px;
 padding: 40px;
 background-color: #f7f7f7;
 }
+
+/* code borrowed from https://tobiasahlin.com/blog/common-flexbox-patterns/#3x3-grid explaining explaining how to evenly space all elements by using display, flex-wrap,justify content,flex,height,margin bottom */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item {
+  flex: 0 32%;
+  height: 100px;
+  margin-bottom: 2%; /* (100-32*3)/2 */
+}
