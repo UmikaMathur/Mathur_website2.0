@@ -43,7 +43,6 @@ background-color: #f7f7f7;
   grid-gap:50px 30px; 
   /* 50 pixels of space added between rows and 30 pixels added between columns  */ 
 }  
-.grid-item {   
-  border:thin gray solid;   
+.grid-item {     
   padding:2px; 
 }
