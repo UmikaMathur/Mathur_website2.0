@@ -12,8 +12,14 @@ h1 {
 }
 
 a {
-color: #69CBBB;
+color: #000000;
 text-decoration: none;
+}
+
+/*any link you have already visited, you have returned to the ink you have clicked on */
+a:visited { 
+  text-decoration: none; 
+  color: black;
 }
 
 /* Centers images */
