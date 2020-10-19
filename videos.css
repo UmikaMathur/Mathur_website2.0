@@ -33,6 +33,7 @@ padding: 40px;
 background-color: #f7f7f7;
 }
 
+/* using the css grid, defined two columns each 450px and three rows 600px 900px https://tobiasahlin.com/blog/common-flexbox-patterns/#3x3-grid */
 .grid  {   
   display: grid;   
   grid-template-columns: repeat(2,450px);  
