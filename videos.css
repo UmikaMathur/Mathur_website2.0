@@ -37,7 +37,7 @@ background-color: #f7f7f7;
   display: grid;   
   grid-template-columns: repeat(3,450px);  
   /* 3 columns */   
-  grid-template-rows: repeat(3,150px); 
+  grid-template-rows: repeat(450,450px); 
   /* 3 rows  */   
   grid-gap:50px 30px; 
   /* 50 pixels of space added between rows and 30 pixels added between columns  */ 
