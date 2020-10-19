@@ -35,14 +35,14 @@ background-color: #f7f7f7;
 
 .grid  {   
   display: grid;   
-  grid-template-columns: repeat(3,450px);  
+  grid-template-columns: repeat(2,450px);  
   /* 3 columns */   
-  grid-template-rows: repeat(450,450px); 
+  grid-template-rows: repeat(3,450px); 
   /* 3 rows  */   
   grid-gap:50px 30px; 
   /* 50 pixels of space added between rows and 30 pixels added between columns  */ 
 }  
 .grid-item {   
   border:thin gray solid;   
-  padding:10px; 
+  padding:2px; 
 }
