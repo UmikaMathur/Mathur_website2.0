@@ -46,7 +46,7 @@ margin: 0px auto;
 .flex-container {   
   display: flex; 
 }
-
+/* using the css grid, I defined two columns each and three rows (found code through this helpful link) https://tobiasahlin.com/blog/common-flexbox-patterns/#3x3-grid */
 .grid  {      
   display: grid;  
   /* 2 columns */
