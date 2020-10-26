@@ -52,7 +52,7 @@ img {
   justify-items: center;
 } 
 
-/* determines the level of padding within the grid items */ 
+/* determines the level of space between the image and the border itself */
 .grid-item {     
   padding:0px; 
 }
