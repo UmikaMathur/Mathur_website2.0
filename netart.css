@@ -39,6 +39,10 @@ portfolio entries */
   background-color: #f7f7f7;
 }
 
+.flex-container {   
+  display: flex; 
+}
+
 .grid  {      
   display: grid;      
   grid-template-columns: repeat(2,300px);     
