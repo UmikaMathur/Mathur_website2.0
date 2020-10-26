@@ -38,6 +38,11 @@ margin-top: 60px;
 padding: 40px;
 }
 
+/*  */ 
+.flex-container {   
+  display: flex; 
+}
+
 /* using the css grid, defined two columns each 450px and three rows 600px 900px https://tobiasahlin.com/blog/common-flexbox-patterns/#3x3-grid */
 .grid  {   
   display: grid;   
