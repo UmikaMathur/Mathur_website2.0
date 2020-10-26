@@ -39,10 +39,16 @@ portfolio entries */
   background-color: #f7f7f7;
 }
 
+/* media holds flex container */ 
+@media (max-width: 800px) { 
+  .flex-container {     
+    flex-direction: column;   
+  } 
+}
+
 /* specifying how the images will be laid out */ 
 .flex-container {   
   display: flex; 
-  flex-direction: column;
 }
 
 .grid  {      
