@@ -39,6 +39,7 @@ portfolio entries */
   background-color: #f7f7f7;
 }
 
+/* specifying how the images will be laid out */ 
 .flex-container {   
   display: flex; 
   flex-direction: column;
