@@ -48,8 +48,8 @@ padding: 40px;
   display: grid;   
   grid-template-columns: repeat(2,20vw);  
   /* 2 columns, and screen viewport width, do 20% of the screen width for each column */   
-  grid-template-rows: 50vh 50vh 50vh; 
-  /* 3 rows take 50% of the height of the viewport and that will be the height of the row*/   
+  grid-template-rows: 40vh 40vh 40vh; 
+  /* 3 rows take 40% of the height of the viewport and that will be the height of the row*/   
   
   /* 50 pixels of space added between rows and 30 pixels added between columns  */ 
   justify-items: center;
