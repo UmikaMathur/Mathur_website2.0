@@ -50,7 +50,7 @@ padding: 40px;
   /* 2 columns, and screen viewport width, do 40% of the screen width for each column */   
   grid-template-rows: 30vh 30vh 30vh; 
   /* 3 rows take 30% of the height of the viewport and that will be the height of the row*/   
-  grid-gap:50px 30px; 
+  
   /* 50 pixels of space added between rows and 30 pixels added between columns  */ 
   justify-items: center;
 }  
