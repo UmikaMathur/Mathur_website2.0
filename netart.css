@@ -50,6 +50,6 @@ portfolio entries */
 }   
 
 .grid-item {      
-  border:thin gray solid;      
+  /* space between the image and the border itself  */   
   padding:2px;  
 }
