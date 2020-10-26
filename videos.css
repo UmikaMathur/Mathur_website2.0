@@ -46,14 +46,14 @@ padding: 40px;
 /* using the css grid, defined two columns each 450px and three rows 600px 900px https://tobiasahlin.com/blog/common-flexbox-patterns/#3x3-grid */
 .grid  {   
   display: grid;   
-  grid-template-columns: repeat(2,40vw);  
-  /* 2 columns, and screen viewport width, do 40% of the screen width for each column */   
-  grid-template-rows: 30vh 30vh 30vh; 
-  /* 3 rows take 30% of the height of the viewport and that will be the height of the row*/   
+  grid-template-columns: repeat(2,50vw);  
+  /* 2 columns, and screen viewport width, do 50% of the screen width for each column */   
+  grid-template-rows: 50vh 50vh 50vh; 
+  /* 3 rows take 50% of the height of the viewport and that will be the height of the row*/   
   
   /* 50 pixels of space added between rows and 30 pixels added between columns  */ 
   justify-items: center;
 }  
 .grid-item {     
-  padding:2px; 
+  padding:0px; 
 }
