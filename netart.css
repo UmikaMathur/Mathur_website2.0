@@ -39,7 +39,7 @@ portfolio entries */
   background-color: #f7f7f7;
 }
 
-/* media holds flex container */ 
+/* media holds flex container and makes the page responsive */ 
 @media (max-width: 800px) { 
   .flex-container {     
     flex-direction: column;   
