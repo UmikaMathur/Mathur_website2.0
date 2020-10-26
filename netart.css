@@ -35,7 +35,7 @@ margin: 0px auto;
   background-color: #f7f7f7;
 }
 
-/* media holds flex container and makes the page responsive */ 
+/* media holds flex container and makes the page responsive. Helpful code and reference from https://stackoverflow.com/questions/51069321/change-flexbox-direction-on-different-resolution ,slightly modified */ 
 @media (max-width: 800px) { 
   .flex-container {     
     flex-direction: column;   
