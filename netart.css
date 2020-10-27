@@ -33,7 +33,6 @@ margin: 0px auto;
 .portfolio-item {
   margin-top: 60px;
   padding: 40px;
-  background-color: #f7f7f7;
 }
 
 /* media holds flex container and makes the page responsive. Helpful code and reference from https://stackoverflow.com/questions/51069321/change-flexbox-direction-on-different-resolution ,slightly modified */ 
@@ -46,6 +45,7 @@ margin: 0px auto;
 /* specifying how the images will be laid out */ 
 .flex-container {   
   display: flex; 
+  justify-content: center;
 }
 /* using the css grid, I defined two columns each and three rows (found code through this helpful link) https://tobiasahlin.com/blog/common-flexbox-patterns/#3x3-grid */
 .grid  {      
