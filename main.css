@@ -7,9 +7,12 @@ body {
   text-align: center;
 }
 
+/* Leave 0.2 units of space after the heading */
 h1 {
   padding: 20px 0px 10px 0px;
+  margin-bottom: 0.2em;
 }
+
 
 a {
 /* color: #69CBBB; */
