@@ -56,3 +56,7 @@ img {
 .grid-item {     
   padding:0px; 
 }
+/* Determines the amount of spaces between the pages on the navigation bar*/
+.navigation-item {
+  padding: 40px;
+}
