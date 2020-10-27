@@ -30,9 +30,7 @@ margin: 0px auto;
 
 /* When you put a period in front of a CSS declaration, it indicates you are creating a new class. We can apply this to div elements to create different portfolio entries */
 .portfolio-item {
-  margin-top: 60px;
   padding: 40px;
-  background-color: #f7f7f7;
 }
 /* using the css grid, I defined two columns each and three rows (found code through this helpful link) https://tobiasahlin.com/blog/common-flexbox-patterns/#3x3-grid */
 .grid  {   
@@ -48,4 +46,9 @@ margin: 0px auto;
 /* determines the level of space between the image and the border itself */
 .grid-item {     
   padding:2px; 
+}
+
+.flex-container {   
+  display: flex; 
+  justify-content: center;
 }
