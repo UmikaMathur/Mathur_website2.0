@@ -27,23 +27,21 @@ display: block;
 margin: 0px auto;
 }
 
-/* When you put a period in front of a CSS declaration, it indicates you are
-creating a new class. We can apply this to div elements to create different
-portfolio entries */
+/* When you put a period in front of a CSS declaration, it indicates you are creating a new class. We can apply this to div elements to create different portfolio entries */
 
 .portfolio-item {
 margin-top: 60px;
 padding: 40px; 
-background-color: #f7f7f7;
 }
 
 @media (max-width: 800px) { 
-  .flex-container {     
+  .flex-container {   
     flex-direction: column;   
   } 
 }
 
 /* specifying how the images will be laid out */ 
 .flex-container {   
+  justify-content: center;
   display: flex; 
 }
