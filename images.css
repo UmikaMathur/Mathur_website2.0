@@ -39,7 +39,7 @@ margin: 0px auto;
   display: grid;   
   grid-template-columns: repeat(2,450px);  
   /* 3 columns */   
-  grid-template-rows: 350px 900px 900px; 
+  grid-template-rows: 350px 900px 350px; 
   /* 3 rows */   
   grid-gap:50px 30px; 
   /* 50 pixels of space added between rows and 30 pixels added between columns  */ 
