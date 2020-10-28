@@ -6,7 +6,7 @@ body {
   padding: 30px 20px;
   text-align: center;
 }
-
+/* hello */
 /* Leave 0.2 units of space after the heading */
 h1 {
   padding: 20px 0px 10px 0px;
@@ -20,8 +20,8 @@ color: #000000;
 text-decoration: none;
 }
 /*any link you have already visited, you have returned to the ink you have clicked on */
-a:visited { 
-  text-decoration: none; 
+a:visited {
+  text-decoration: none;
   color: black;
 }
 
@@ -34,17 +34,17 @@ margin: 0px auto;
 
 .portfolio-item {
 /* margin-top: 60px; */
-padding: 40px; 
+padding: 40px;
 }
 
-@media (max-width: 800px) { 
-  .flex-container {   
-    flex-direction: column;   
-  } 
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
 }
 
-/* specifying how the images will be laid out */ 
-.flex-container {   
+/* specifying how the images will be laid out */
+.flex-container {
   justify-content: center;
-  display: flex; 
+  display: flex;
 }
