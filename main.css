@@ -7,9 +7,10 @@ body {
   text-align: center;
 }
 
-/* Brings the name and navigation up */
+/* Brings the name and navigation up, and no margin */
 h1 {
   padding: 20px 0px 0px 0px;
+  margin: 0px 0px;
 }
 
 
