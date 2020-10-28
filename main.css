@@ -30,6 +30,12 @@ display: block;
 margin: 0px auto;
 }
 
+/* specifying how the images will be laid out */
+.flex-container {
+  justify-content: center;
+  display: flex;
+}
+
 /* When you put a period in front of a CSS declaration, it indicates you are creating a new class. We can apply this to div elements to create different portfolio entries */
 
 .portfolio-item {
@@ -43,8 +49,4 @@ padding: 40px;
   }
 }
 
-/* specifying how the images will be laid out */
-.flex-container {
-  justify-content: center;
-  display: flex;
-}
+

@@ -29,6 +29,12 @@ display: block;
 margin: 0px auto;
 }
 
+/* specifying how the images will be laid out */ 
+.flex-container {   
+  display: flex; 
+  justify-content: center;
+}
+
 /* When you put a period in front of a CSS declaration, it indicates you arecreating a new class. We can apply this to div elements to create different portfolio entries */
 .portfolio-item {
   padding: 40px;
@@ -41,11 +47,7 @@ margin: 0px auto;
   } 
 }
 
-/* specifying how the images will be laid out */ 
-.flex-container {   
-  display: flex; 
-  justify-content: center;
-}
+
 /* using the css grid, I defined two columns each and three rows (found code through this helpful link) https://tobiasahlin.com/blog/common-flexbox-patterns/#3x3-grid */
 .grid  {      
   display: grid;  
