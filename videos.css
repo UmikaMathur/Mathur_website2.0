@@ -9,8 +9,13 @@ body {
 }
 
 h1 {
-  padding: 20px 0px 10px 0px;
+  padding: 20px 0px 0px 0px;
   margin: 0px 0px;
+}
+
+/* treat the scroll bar like some overflow units and not reducing the page size */
+html {
+  overflow-y: scroll;
 }
 
 /* font color */
