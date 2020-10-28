@@ -63,6 +63,7 @@ img {
 /* determines the level of space between the image and the border itself */
 .grid-item {     
   padding:0px; 
+  align-content: center;
 }
 /* Determines the amount of spaces between the pages on the navigation bar*/
 .navigation-item {
