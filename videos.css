@@ -44,7 +44,6 @@ img {
 
 /* When you put a period in front of a CSS declaration, it indicates you are creating a new class. We can apply this to div elements to create different portfolio entries */
 .portfolio-item {
-  margin-top: 60px;
   padding: 40px;
 }
 
@@ -60,10 +59,10 @@ img {
   justify-items: center;
 } 
 
-/* determines the level of space between the image and the border itself */
+/* determines the level of space between the image and the border itself, and to have every video be in the center */
 .grid-item {     
   padding:0px; 
-  align-content: center;
+  
 }
 /* Determines the amount of spaces between the pages on the navigation bar*/
 .navigation-item {
