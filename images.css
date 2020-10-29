@@ -25,10 +25,11 @@ a:visited {
 
 /* Centers images */
 img {
-display: block;
-margin: 0px auto;
+  display: block;
+  margin: 0px auto;
 }
 
+/* specifying how the images will be laid out */ 
 .flex-container {   
   display: flex; 
   justify-content: center;
@@ -46,7 +47,7 @@ margin: 0px auto;
   grid-template-rows: 45vh 45vh 45vh; 
   /* 3 rows */   
   grid-gap:5vh 5vw; 
-  /* 50 pixels of space added between rows and 30 pixels added between columns and grid items */ 
+  /* vh and vw added between columns and grid items */ 
   justify-items: center;
 }  
 /* determines the level of space between the image and the border itself */

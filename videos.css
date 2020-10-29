@@ -13,7 +13,7 @@ h1 {
   margin: 0px 0px;
 }
 
-/* treat the scroll bar like some overflow units and not reducing the page size */
+/* treat the scroll bar like overflow units and not reducing the page size */
 html {
   overflow-y: scroll;
 }
@@ -51,7 +51,7 @@ img {
 /* using the css grid, I defined two columns each and three rows (found code through this helpful link) https://tobiasahlin.com/blog/common-flexbox-patterns/#3x3-grid */
 .grid  {   
   display: grid;   
-  /* 2 columns, and screen viewport width, 40% of the screen width for each column */   
+  /* 2 columns, and screen viewport width, for each column */   
   grid-template-columns: repeat(2, 50vw);  
   /* 3 rows take 40% (first row) and 50% (2nd and 3rd row) of the height of the viewport and that will be the height of the row */  
   grid-template-rows: 40vh 50vh 50vh;   
@@ -62,7 +62,6 @@ img {
 /* determines the level of space between the image and the border itself, and to have every video be in the center */
 .grid-item {     
   padding:0px; 
-  
 }
 /* Determines the amount of spaces between the pages on the navigation bar*/
 .navigation-item {

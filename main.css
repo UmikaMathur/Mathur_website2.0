@@ -15,19 +15,20 @@ h1 {
 
 
 a {
-/* color: #69CBBB; */
-color: #000000;
-text-decoration: none;
+/* color */
+  color: #000000;
+  text-decoration: none;
 }
-/*any link you have already visited, you have returned to the ink you have clicked on */
+/* any link you have already visited, you have returned to the ink you have clicked on */
 a:visited {
   text-decoration: none;
   color: black;
 }
 
+/* Centers images */
 img {
-display: block;
-margin: 0px auto;
+  display: block;
+  margin: 0px auto;
 }
 
 /* specifying how the images will be laid out */
@@ -37,12 +38,11 @@ margin: 0px auto;
 }
 
 /* When you put a period in front of a CSS declaration, it indicates you are creating a new class. We can apply this to div elements to create different portfolio entries */
-
 .portfolio-item {
-/* margin-top: 60px; */
-padding: 40px;
+  padding: 40px;
 }
 
+/* media holds flex container and makes the page responsive. */
 @media (max-width: 800px) {
   .flex-container {
     flex-direction: column;
