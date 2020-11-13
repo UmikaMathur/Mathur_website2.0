@@ -17,6 +17,18 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  padding: 20px 0px 0px 0px;
+  margin: 0px 0px;
+  font-family: 'Modak', cursive;
+  font-size: 50px;
+}
+
+h3 {
+font-family: 'Modak', cursive;
+font-size: 40px;
+}
+
 /*any link you have already visited, you have returned to the link you have clicked on */
 a:visited { 
   text-decoration: none; 
