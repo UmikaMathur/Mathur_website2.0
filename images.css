@@ -12,6 +12,18 @@ h1 {
   margin: 0px 0px;
 }
 
+h1 {
+  padding: 20px 0px 0px 0px;
+  margin: 0px 0px;
+  font-family: 'Modak', cursive;
+  font-size: 50px;
+}
+
+h3 {
+font-family: 'Modak', cursive;
+font-size: 40px;
+}
+
 a {
 color: #000000;
 text-decoration: none;
