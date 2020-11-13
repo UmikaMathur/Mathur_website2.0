@@ -71,19 +71,19 @@ img {
 
 
 /* using the css grid, I defined two columns each and three rows (found code through this helpful link) https://tobiasahlin.com/blog/common-flexbox-patterns/#3x3-grid */
-.grid  {      
+/* .grid  {      
   display: grid;  
   /* 2 columns */
-  grid-template-columns: repeat(2,300px);     
+/*  grid-template-columns: repeat(2,300px);     
   /* 3 rows */      
-  grid-template-rows: 200px 200px 200px;    
+/*  grid-template-rows: 200px 200px 200px;    
   /* 50 pixels of space added between rows and 30 pixels added between columns */  
-  grid-gap:50px 30px;    
+  /* grid-gap:50px 30px;    
   /* justifies the default items to the center */ 
-  justify-items: center;
+ /* justify-items: center;
 }   
 
 /* determines the level of space between the image and the border itself */
-.grid-item {         
-  padding:2px;  
+/* .grid-item {         
+/*  padding:2px;  
 }
