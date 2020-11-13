@@ -35,7 +35,7 @@ a:visited {
   color: black;
 }
 /*space between two lines */
-.container hr {   
+.flex-container hr {   
   width: 100%; 
 }
 
