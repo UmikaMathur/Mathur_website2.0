@@ -22,6 +22,11 @@ a:visited {
   text-decoration: none; 
   color: black;
 }
+/*space between two lines */
+.container hr {   
+  width: 100%; 
+}
+
 
 /* Centers images */
 img {
