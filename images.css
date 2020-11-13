@@ -10,11 +10,6 @@ body {
 h1 {
   padding: 20px 0px 0px 0px;
   margin: 0px 0px;
-}
-
-h1 {
-  padding: 20px 0px 0px 0px;
-  margin: 0px 0px;
   font-family: 'Modak', cursive;
   font-size: 50px;
 }
@@ -51,6 +46,7 @@ img {
 .flex-container {   
   display: flex; 
   justify-content: center;
+  flex-direction: row;
 }
 
 /* When you put a period in front of a CSS declaration, it indicates you are creating a new class. We can apply this to div elements to create different portfolio entries */
