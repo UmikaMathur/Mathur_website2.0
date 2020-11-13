@@ -18,6 +18,18 @@ html {
   overflow-y: scroll;
 }
 
+h1 {
+  padding: 20px 0px 0px 0px;
+  margin: 0px 0px;
+  font-family: 'Modak', cursive;
+  font-size: 50px;
+}
+
+h3 {
+font-family: 'Modak', cursive;
+font-size: 40px;
+}
+
 /* media holds flex container and makes the page responsive. */
 @media (max-width: 800px) {
   .flex-container {
