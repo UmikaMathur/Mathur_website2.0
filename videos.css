@@ -58,9 +58,9 @@ img {
 .grid  {   
   display: grid;   
   /* 2 columns, and screen viewport width, for each column */   
-  grid-template-columns: repeat(2, 50vw);  
+  /* grid-template-columns: repeat(2, 50vw);  
   /* 3 rows take 40% (first row) and 50% (2nd and 3rd row) of the height of the viewport and that will be the height of the row */  
-  grid-template-rows: 40vh 50vh 50vh;   
+  /* grid-template-rows: 40vh 50vh 50vh;   
   /* justifies the default items to the center */ 
   justify-items: center;
 } 
