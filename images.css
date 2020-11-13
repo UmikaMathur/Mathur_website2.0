@@ -50,7 +50,7 @@ img {
   display: grid;   
   grid-template-columns: repeat(2,40vw);  
   /* 2 columns */   
-  grid-template-rows: 45vh 45vh 45vh; 
+  /* grid-template-rows: 45vh 45vh 45vh; */
   /* 3 rows */   
   grid-gap:5vh 5vw; 
   /* vh and vw added between columns and grid items */ 
