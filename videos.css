@@ -31,7 +31,7 @@ font-size: 40px;
 }
 
 /* media holds flex container and makes the page responsive. */
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
   .flex-container {
     flex-direction: column;
  }
