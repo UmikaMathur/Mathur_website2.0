@@ -5,7 +5,8 @@ radiusNotes = [];
 
 
 function setup() {
-	createCanvas(1600, 700);
+// naming the canvas to do other things with it later
+	var canvas = createCanvas(1600, 700);
 //put this canvas in a specific spot	
 	canvas.parent('sketch-holder');
 }
