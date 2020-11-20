@@ -12,7 +12,7 @@ function setup() {
 function draw() {
    background(0);
 //If the circle reaches a certain point, then stop growing
-  if (radiusNotes[0] > 400) {
+  if (radiusNotes[0] > 800) {
 		xNotes.shift();
 		yNotes.shift();
 		radiusNotes.shift();
