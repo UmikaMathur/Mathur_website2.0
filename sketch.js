@@ -5,7 +5,7 @@ radiusNotes = [];
 
 
 function setup() {
-	createCanvas(400, 400);
+	createCanvas(1000, 1000);
 }
 
 
