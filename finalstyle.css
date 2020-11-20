@@ -9,9 +9,11 @@ canvas {
 h1 {
   font-family: 'Goldman', cursive;
   color: white;
+  font-size: 40px;
 }
 
 p {
   font-family: 'Goldman', cursive;
   color: white;
+  font-size: 30px;
 }
