@@ -1,35 +1,3 @@
-/*!
- * Paper.js v0.12.11 - The Swiss Army Knife of Vector Graphics Scripting.
- * http://paperjs.org/
- *
- * Copyright (c) 2011 - 2020, Jürg Lehni & Jonathan Puckey
- * http://juerglehni.com/ & https://puckey.studio/
- *
- * Distributed under the MIT license. See LICENSE file for details.
- *
- * All rights reserved.
- *
- * Date: Fri Jun 19 19:14:33 2020 +0200
- *
- ***
- *
- * Straps.js - Class inheritance library with support for bean-style accessors
- *
- * Copyright (c) 2006 - 2020 Jürg Lehni
- * http://juerglehni.com/
- *
- * Distributed under the MIT license.
- *
- ***
- *
- * Acorn.js
- * https://marijnhaverbeke.nl/acorn/
- *
- * Acorn is a tiny, fast JavaScript parser written in JavaScript,
- * created by Marijn Haverbeke and released under an MIT license.
- *
- */
-
 var paper = function(self, undefined) {
 
 self = self || require('./node/self.js');
@@ -37,45 +5,45 @@ var window = self.window,
 	document = self.document;
 
 var Base = new function() {
-	var hidden = /^(statics|enumerable|beans|preserve)$/,
-		array = [],
-		slice = array.slice,
-		create = Object.create,
-		describe = Object.getOwnPropertyDescriptor,
-		define = Object.defineProperty,
+  var hidden = /^(statics|enumerable|beans|preserve)$/,
+  array = [],
+  slice = array.slice,
+  create = Object.create,
+  describe = Object.getOwnPropertyDescriptor,
+  define = Object.defineProperty,
 
-		forEach = array.forEach || function(iter, bind) {
-			for (var i = 0, l = this.length; i < l; i++) {
-				iter.call(bind, this[i], i, this);
-			}
-		},
+forEach = array.forEach || function(iter, bind) {
+  for (var i = 0, l = this.length; i < l; i++) {
+    iter.call(bind, this[i], i, this);
+  }
+},
 
-		forIn = function(iter, bind) {
-			for (var i in this) {
-				if (this.hasOwnProperty(i))
-					iter.call(bind, this[i], i, this);
-			}
-		},
+forIn = function(iter, bind) {
+  for (var i in this) {
+    if (this.hasOwnProperty(i))
+    iter.call(bind, this[i], i, this);
+  }
+},
 
-		set = Object.assign || function(dst) {
-			for (var i = 1, l = arguments.length; i < l; i++) {
-				var src = arguments[i];
-				for (var key in src) {
-					if (src.hasOwnProperty(key))
-						dst[key] = src[key];
-				}
-			}
-			return dst;
-		},
+set = Object.assign || function(dst) {
+  for (var i = 1, l = arguments.length; i < l; i++) {
+    var src = arguments[i];
+    for (var key in src) {
+    if (src.hasOwnProperty(key))
+    dst[key] = src[key];
+  }
+}
+return dst;
+  },
 
-		each = function(obj, iter, bind) {
-			if (obj) {
-				var desc = describe(obj, 'length');
-				(desc && typeof desc.value === 'number' ? forEach : forIn)
-					.call(obj, iter, bind = bind || obj);
-			}
-			return bind;
-		};
+each = function(obj, iter, bind) {
+  if (obj) {
+  var desc = describe(obj, 'length');
+  (desc && typeof desc.value === 'number' ? forEach : forIn)
+  .call(obj, iter, bind = bind || obj);
+}
+return bind;
+};
 
 	function inject(dest, src, enumerable, beans, preserve) {
 		var beansNames = {};
