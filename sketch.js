@@ -42,7 +42,7 @@ function mousePressed() {
 	//if soundNotStarted {
 //	soundNotStarted = false;
 	//	fire.play();
-	   }
+	 //  }
 	append(xNotes, mouseX);
 	append(yNotes, mouseY);
 	append(radiusNotes, 1);
