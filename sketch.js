@@ -15,7 +15,7 @@ function setup() {
 
 
 function draw() {
-   background(75);
+   background(0);
 //If the circle reaches a certain point, then stop growing
   if (radiusNotes[0] > 800) {
 		xNotes.shift();
