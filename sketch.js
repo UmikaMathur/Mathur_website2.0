@@ -1,7 +1,9 @@
-//To record circle information 
+//To record circle information and sound
 xNotes = [];
 yNotes = [];
 radiusNotes = [];
+fire = new Howl({ src: ['images/BURNING_DEBRIS_1.wav']}) 
+soundNotStarted = true;
 
 
 function setup() {
@@ -13,7 +15,7 @@ function setup() {
 
 
 function draw() {
-   background(0);
+   background(75);
 //If the circle reaches a certain point, then stop growing
   if (radiusNotes[0] > 800) {
 		xNotes.shift();
@@ -37,6 +39,10 @@ function draw() {
 
 // When the mouse is pressed, make a note of where the circle will be, and give it a radius of 1.
 function mousePressed() {
+	if soundNotStarted {
+		soundNotStarted = false;
+		fire.play();
+	   }
 	append(xNotes, mouseX);
 	append(yNotes, mouseY);
 	append(radiusNotes, 1);
