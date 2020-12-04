@@ -1,7 +1,6 @@
-html, body {
+html {
   margin: 0;
   padding: 0;
-  background-color: gray;
 }
 
 canvas {
@@ -18,4 +17,10 @@ p {
   font-family: 'Goldman', cursive;
   color: white;
   font-size: 30px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: gray;
 }
