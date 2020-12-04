@@ -2,7 +2,7 @@
 xNotes = [];
 yNotes = [];
 radiusNotes = [];
-fire = new Howl({ src: ['images/BURNING_DEBRIS_1.mp3']}) 
+fire = new Howl({ src: ['images/fire.mp3']}) 
 soundNotStarted = true;
 
 
