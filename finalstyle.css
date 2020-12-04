@@ -31,3 +31,10 @@ body {
   justify-content: center;   
   margin: 5px; 
 }
+/* */
+.sketch-center {
+  margin: 0;   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
