@@ -2,8 +2,7 @@
 xNotes = [];
 yNotes = [];
 radiusNotes = [];
-var fire = new Howl({ src: ['images/newfire.mp3']}) 
-var soundNotStarted = true;
+let fire;
 
 
 function setup() {
@@ -11,6 +10,7 @@ function setup() {
 	var canvas = createCanvas(1600, 700);
 //put this canvas in a specific spot	
 	canvas.parent('sketch-holder');
+	fire = loadSound('images/newfire.mp3');
 }
 
 
@@ -39,8 +39,6 @@ function draw() {
 
 // When the mouse is pressed, make a note of where the circle will be, and give it a radius of 1.
 function mousePressed() {
-	if soundNotStarted {
-	soundNotStarted = false;
 		fire.play();
 	   }
 	append(xNotes, mouseX);
