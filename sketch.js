@@ -2,8 +2,8 @@
 xNotes = [];
 yNotes = [];
 radiusNotes = [];
-fire = new Howl({ src: ['images/fire.mp3']}) 
-soundNotStarted = true;
+var fire = new Howl({ src: ['images/fire.mp3']}) 
+var soundNotStarted = true;
 
 
 function setup() {
