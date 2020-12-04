@@ -40,7 +40,7 @@ function draw() {
 // When the mouse is pressed, make a note of where the circle will be, and give it a radius of 1.
 function mousePressed() {
 		fire.play();
-	   }
+	   
 	append(xNotes, mouseX);
 	append(yNotes, mouseY);
 	append(radiusNotes, 1);
