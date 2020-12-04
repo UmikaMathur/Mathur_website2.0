@@ -2,7 +2,7 @@
 xNotes = [];
 yNotes = [];
 radiusNotes = [];
-var fire = new Howl({ src: ['images/fire.mp3']}) 
+var fire = new Howl({ src: ['images/newfire.mp3']}) 
 var soundNotStarted = true;
 
 
