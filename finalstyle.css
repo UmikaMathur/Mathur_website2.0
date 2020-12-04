@@ -25,16 +25,9 @@ body {
   background-color: gray;
 }
 
-img {   
-  display: block;   
-  height: auto;   
-  max-width: 100%; 
-}  
-
-.images {   
+.horizontal-flex-container {   
   display: flex;   
+  flex-flow: row nowrap;   
   justify-content: center;   
-  align-items: center;   
-  margin: auto 0;   
-  padding: 0 200px; 
+  margin: 5px; 
 }
