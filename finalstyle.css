@@ -26,8 +26,7 @@ body {
 }
 
 .horizontal-flex-container {   
-  display: flex;   
-  flex-flow: row nowrap;   
+  display: flex;      
   justify-content: center;   
   margin: 5px; 
 }
