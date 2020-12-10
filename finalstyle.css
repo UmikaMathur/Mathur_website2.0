@@ -1,37 +1,38 @@
+/* states no margin or padding */
 html {
   margin: 0;
   padding: 0;
 }
-
+/* block element */
 canvas {
   display: block;
 }
-
+/* font, color, size of header text */
 h1 {
   font-family: 'Goldman', cursive;
   color: white;
   font-size: 50px;
 }
-
+/* determines font, color, and size of paragraph text */
 p {
   font-family: 'Goldman', cursive;
   color: white;
   font-size: 30px;
 }
-
+/* no margin or padding, specifying the background is gray */
 body {
   margin: 0;
   padding: 0;
   background-color: gray;
 }
-
+/* specifying how the content will be laid out */
 .horizontal-flex-container {   
   display: flex; 
   flex-flow: row;
   justify-content: center;   
   margin: 5px; 
 }
-/* */
+/* centers the sketch displayed */
 .sketch-center {
   margin: 0;   
   display: flex;
